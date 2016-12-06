@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
 using BlogCommentsSys.Web.Models;
+using BlogCommentsSys.Models;
 using Microsoft.AspNet.Identity;
 using System.Web.Script.Serialization;
 

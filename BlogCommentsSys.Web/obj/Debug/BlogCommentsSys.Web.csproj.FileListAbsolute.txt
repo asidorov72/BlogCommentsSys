@@ -83,3 +83,5 @@ C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.Owin.Se
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.Owin.Security.Google.xml
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.Owin.Security.Twitter.xml
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogCommentsSys.Models.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogCommentsSys.Models.pdb

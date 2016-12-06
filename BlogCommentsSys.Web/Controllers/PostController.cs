@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using BlogCommentsSys.Web.Models;
+using BlogCommentsSys.Models;
 using Microsoft.AspNet.Identity;
 
 namespace BlogCommentsSys.Web.Controllers

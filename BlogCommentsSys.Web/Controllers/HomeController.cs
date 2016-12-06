@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using BlogCommentsSys.Web.Models;
+using BlogCommentsSys.Models;
 using System.IO;
 using Microsoft.AspNet.Identity;
 

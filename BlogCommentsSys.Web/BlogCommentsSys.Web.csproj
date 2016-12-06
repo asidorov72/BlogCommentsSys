@@ -214,11 +214,8 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\BlogContext.cs" />
-    <Compile Include="Models\BlogDbInitializer.cs" />
-    <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -323,6 +320,12 @@
     <EmbeddedResource Include="Migrations\201612011302060_first.resx">
       <DependentUpon>201612011302060_first.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlogCommentsSys.Models\BlogCommentsSys.Models.csproj">
+      <Project>{777ee24b-4058-40ac-be12-c900904a8601}</Project>
+      <Name>BlogCommentsSys.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

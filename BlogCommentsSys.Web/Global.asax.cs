@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using BlogCommentsSys.Web.Models;
+using BlogCommentsSys.Models;
 using System.Data.Entity;
 
 namespace BlogCommentsSys.Web
@@ -14,8 +15,6 @@ namespace BlogCommentsSys.Web
     {
         protected void Application_Start()
         {
-            //Database.SetInitializer(new BlogDbInitializer());
-
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
