@@ -8,7 +8,7 @@ using BlogCommentsSys.Web.Models;
 using BlogCommentsSys.Models;
 using Microsoft.AspNet.Identity;
 using System.Web.Script.Serialization;
-
+using BlogCommentsSys.Data;
 
 namespace BlogCommentsSys.Web.Controllers
 {

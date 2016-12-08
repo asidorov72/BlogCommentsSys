@@ -2,8 +2,6 @@ C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\obj\Debug\BlogComment
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\obj\Debug\BlogCommentsSys.Web.Migrations.InitialCreate.resources
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\obj\Debug\BlogCommentsSys.Web.Migrations.first.resources
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\obj\Debug\BlogCommentsSys.Web.csproj.GenerateResource.Cache
-C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\obj\Debug\BlogComments.dll
-C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\obj\Debug\BlogComments.pdb
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\ApplicationInsights.config
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\roslyn\csc.exe
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -21,6 +19,9 @@ C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogComments.dll.
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogComments.dll
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogComments.pdb
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Antlr3.Runtime.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\AutoMapper.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogCommentsSys.Data.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogCommentsSys.Models.dll
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\EntityFramework.dll
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\EntityFramework.SqlServer.dll
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.AI.Agent.Intercept.dll
@@ -54,6 +55,9 @@ C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\System.Web.WebPag
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\System.Web.WebPages.dll
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\System.Web.WebPages.Razor.dll
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\WebGrease.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogCommentsSys.Data.pdb
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogCommentsSys.Models.pdb
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\AutoMapper.xml
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.AI.DependencyCollector.xml
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.AI.Web.xml
@@ -83,5 +87,12 @@ C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.Owin.Se
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.Owin.Security.Google.xml
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.Owin.Security.Twitter.xml
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogCommentsSys.Models.dll
-C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\BlogCommentsSys.Models.pdb
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\obj\Debug\BlogComments.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\obj\Debug\BlogComments.pdb
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Ninject.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Ninject.Web.Common.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Ninject.Web.Mvc.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\WebActivatorEx.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Ninject.xml
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Ninject.Web.Common.xml
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Web\bin\Ninject.Web.Mvc.xml

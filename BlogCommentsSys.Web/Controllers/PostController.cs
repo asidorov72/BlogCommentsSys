@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BlogCommentsSys.Data;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -6,21 +7,32 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using BlogCommentsSys.Web.Models;
+//using BlogCommentsSys.Web.Models;
 using BlogCommentsSys.Models;
 using Microsoft.AspNet.Identity;
+using BlogCommentsSys.Web.ViewModels.Post;
+using BlogCommentsSys.Web.ViewModels.Comment;
 
 namespace BlogCommentsSys.Web.Controllers
 {
-    public class PostController : Controller
+    public class PostController : BaseController
     {
         //private ApplicationDbContext db = new ApplicationDbContext();
-        BlogContext db = new BlogContext();
+        //BlogContext db = new BlogContext();
+
+        public PostController(IBlogCommentsSys data) : base(data)
+        {
+           
+        }
+
 
         // GET: Posts
         public ActionResult Index()
         {
-            return View(db.Posts.ToList());
+            //return View(db.Posts.ToList());
+            var posts = this.Data.Posts.All().ToList();
+
+            return View(posts);
         }
 
         // GET: Posts/Details/5
@@ -30,7 +42,7 @@ namespace BlogCommentsSys.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Post post = db.Posts.Find(id);
+            var post = this.Data.Posts.Find(id);
             if (post == null)
             {
                 return HttpNotFound();
@@ -50,8 +62,8 @@ namespace BlogCommentsSys.Web.Controllers
         public ActionResult Add(Post post)
         {
             post.Date = DateTime.Now;
-            db.Posts.Add(post);
-            db.SaveChanges();
+            Data.Posts.Add(post);
+            Data.SaveChanges();
             ViewBag.Message = "New post " + post.Title + " was created!";
             return RedirectToAction("Blog", "Home");
         }
@@ -69,8 +81,8 @@ namespace BlogCommentsSys.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Posts.Add(post);
-                db.SaveChanges();
+                Data.Posts.Add(post);
+                Data.SaveChanges();
                 return RedirectToAction("Index");
             }
 
@@ -84,7 +96,7 @@ namespace BlogCommentsSys.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Post post = db.Posts.Find(id);
+            Post post = Data.Posts.Find(id);
             if (post == null)
             {
                 return HttpNotFound();
@@ -92,55 +104,10 @@ namespace BlogCommentsSys.Web.Controllers
             return View(post);
         }
 
-        // POST: Posts/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,UserId,PostTxt,Date")] Post post)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Entry(post).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(post);
-        }
+        
 
-        // GET: Posts/Delete/5
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Post post = db.Posts.Find(id);
-            if (post == null)
-            {
-                return HttpNotFound();
-            }
-            return View(post);
-        }
+        
 
-        // POST: Posts/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            Post post = db.Posts.Find(id);
-            db.Posts.Remove(post);
-            db.SaveChanges();
-            return RedirectToAction("Index");
-        }
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        
     }
 }

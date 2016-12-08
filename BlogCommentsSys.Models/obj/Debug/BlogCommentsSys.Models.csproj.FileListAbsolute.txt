@@ -1,10 +1,13 @@
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\BlogCommentsSys.Models.dll.config
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\BlogCommentsSys.Models.dll
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\BlogCommentsSys.Models.pdb
-C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\obj\Debug\BlogCommentsSys.Models.csprojResolveAssemblyReference.cache
-C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\obj\Debug\BlogCommentsSys.Models.dll
-C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\obj\Debug\BlogCommentsSys.Models.pdb
-C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\BlogCommentsSys.Models.dll.config
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\EntityFramework.dll
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\EntityFramework.xml
 C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\obj\Debug\BlogCommentsSys.Models.dll
+C:\ALEX\bet365\ASP.NET\BlogCommentsSys\BlogCommentsSys.Models\obj\Debug\BlogCommentsSys.Models.pdb

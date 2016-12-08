@@ -5,7 +5,7 @@ namespace BlogCommentsSys.Web.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<BlogCommentsSys.Web.Models.BlogContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<BlogCommentsSys.Data.BlogContext>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@ namespace BlogCommentsSys.Web.Migrations
             ContextKey = "BlogCommentsSys.Web.Models.BlogContext";
         }
 
-        protected override void Seed(BlogCommentsSys.Web.Models.BlogContext context)
+        protected override void Seed(BlogCommentsSys.Data.BlogContext context)
         {
             //  This method will be called after migrating to the latest version.
 

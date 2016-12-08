@@ -1,22 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.Entity;
+using System.Linq;
+using System.Net;
+using BlogCommentsSys.Data;
+using System.Data.Entity;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using BlogCommentsSys.Web.Models;
-using BlogCommentsSys.Models;
-using System.IO;
+using AutoMapper;
 using Microsoft.AspNet.Identity;
+using AutoMapper.QueryableExtensions;
+using BlogCommentsSys.Web.ViewModels;
+using BlogCommentsSys.Web.ViewModels.Post;
+using BlogCommentsSys.Web.ViewModels.Comment;
 
 namespace BlogCommentsSys.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
-        BlogContext db = new BlogContext();
+        public HomeController(IBlogCommentsSys data) : base(data)
+        {
+        }
 
         public ActionResult Index()
         {
-
             return View();
         }
 
@@ -36,11 +47,6 @@ namespace BlogCommentsSys.Web.Controllers
 
         public ActionResult Blog()
         {
-            //string UserId = null;
-            //UserId = User.Identity.GetUserId();
-            //ViewBag.UserId = UserId;
-
-
             string UserId = null;
             string UserName = null;
             if (User.Identity.IsAuthenticated)
@@ -52,21 +58,11 @@ namespace BlogCommentsSys.Web.Controllers
             ViewBag.UserId = UserId;
             ViewBag.Author = UserName;
 
-            IEnumerable<Post> posts = db.Posts;
-            IEnumerable<Comment> comments = db.Comments;
+            var posts = this.Data.Posts.All().ToList();
+            var comments = this.Data.Comments.All().ToList();
 
             ViewBag.Posts = posts.OrderByDescending(p => p.Date).ToList();
             ViewBag.Comments = comments.OrderByDescending(c => c.Date).ToList();
-
-           
-
-            /*
-            var lastCommentRow = db.Comments.SqlQuery(
-                    "SELECT top 1 c.* FROM dbo.Comments c ORDER BY c.Id DESC"
-                ).ToList();
-            ViewBag.LastComment = lastCommentRow;
-            */
-
 
             ViewBag.Message = "Your posts should be here";
 

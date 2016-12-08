@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using BlogCommentsSys.Models;
+using BlogCommentsSys.Data;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 

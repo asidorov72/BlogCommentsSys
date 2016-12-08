@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using BlogCommentsSys.Web.Models;
 using BlogCommentsSys.Models;
 
 namespace BlogCommentsSys.Web.Models
